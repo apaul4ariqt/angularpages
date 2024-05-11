@@ -17,7 +17,7 @@
     "@angular/platform-browser": "~17.3.0",
     "@angular/platform-browser-dynamic": "~17.3.0",
     "@angular/router": "~17.3.0",
-    "@nx/angular": "19.0.2",
+    "@nx/angular": "^19.1.0-canary.20240511-f7dcf43",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
@@ -36,7 +36,7 @@
     "@nx/eslint": "19.0.2",
     "@nx/eslint-plugin": "19.0.2",
     "@nx/jest": "19.0.2",
-    "@nx/js": "19.0.2",
+    "@nx/js": "19.1.0-canary.20240511-f7dcf43",
     "@nx/web": "19.0.2",
     "@nx/workspace": "19.0.2",
     "@schematics/angular": "~17.3.0",
