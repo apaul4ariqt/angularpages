@@ -14,7 +14,18 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ng-mf-personal-profile/shared/directives": [
+        "libs/shared/directives/src/index.ts"
+      ],
+      "@ng-mf-personal-profile/shared/modules": [
+        "libs/shared/modules/src/index.ts"
+      ],
+      "@ng-mf-personal-profile/shared/services": [
+        "libs/shared/services/src/index.ts"
+      ],
+      "home/Routes": ["home/src/app/remote-entry/entry.routes.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

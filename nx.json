@@ -42,6 +42,15 @@
           "codeCoverage": true
         }
       }
+    },
+    "@nx/angular:webpack-browser": {
+      "inputs": [
+        "production",
+        "^production",
+        {
+          "env": "NX_MF_DEV_SERVER_STATIC_REMOTES"
+        }
+      ]
     }
   },
   "plugins": [
@@ -63,6 +72,13 @@
       "e2eTestRunner": "playwright",
       "linter": "eslint",
       "style": "css",
+      "unitTestRunner": "jest"
+    },
+    "@nx/angular:component": {
+      "style": "css"
+    },
+    "@nx/angular:library": {
+      "linter": "eslint",
       "unitTestRunner": "jest"
     }
   },
