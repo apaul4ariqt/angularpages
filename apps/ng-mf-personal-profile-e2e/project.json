@@ -1,0 +1,9 @@
+{
+  "name": "ng-mf-personal-profile-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/ng-mf-personal-profile-e2e/src",
+  "implicitDependencies": ["ng-mf-personal-profile"],
+  "// targets": "to see all targets run: nx show project ng-mf-personal-profile-e2e --web",
+  "targets": {}
+}
